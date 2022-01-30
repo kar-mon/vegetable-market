@@ -10,5 +10,8 @@ namespace VegetableMarket
     {
         public string vegetableKind;
         public int quantity;
+        public override string ToString() {
+            return  vegetableKind + " " + quantity;
+        }
     }
 }

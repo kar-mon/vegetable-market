@@ -50,12 +50,9 @@ namespace VegetableMarket
             Console.WriteLine("There are " + shop[1].quantity + " tomatoes in stock.");
             Console.WriteLine("There are " + shop[2].quantity + " potatoes in stock.");
 
+            
+            buyer.printTransactions();
+
         }
     }
 }
-/*an application that will simulate the following operation for a vegetable market:
-- Buy a vegetable (user can choose which one),
-- Sell a vegetable (user can choose which one),
-- Display last 10 transactions of buying and selling – how much was sold/bought, what was it and when was it,
-- Order vegetables,
-- Cancel vegetable order*/
